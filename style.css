@@ -1,5 +1,8 @@
 /* font */
-
+@font-face {
+    font-family: "Gilroy";
+    src: url(fonts/Gilroy-Regular.ttf);
+}
 
 
 /* обнуление */
@@ -12,8 +15,32 @@
 
 
 /* artem */
-
-
+.partners{
+width: 1920px;
+height: 488px;
+background-color: #0F1113;
+}
+.textourpartners{
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+.partnerboxes{
+margin-top: 52px;
+}
+.partnerupbox{
+    width: 173px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #151D25;
+    background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
+}
 /* danya */
 
 
