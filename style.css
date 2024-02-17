@@ -15,6 +15,9 @@
 
 
 /* artem */
+body{
+    margin: 0%;
+}
 .partners{
 width: 100%;
 background-color: #0F1113;
@@ -63,6 +66,11 @@ margin: auto;
     width: 80%;
     height: 0px;
 }
+
+
+
+
+
 .team{
 font-family: Gilroy;
 width: 100%;
@@ -86,6 +94,48 @@ border: 1px solid #151d25;
 width: 280px;
 height: 215px;
 background: linear-gradient(180deg, #151d25 0%, #0f1113 100%);
+position: relative;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.simple{
+    font-family: Gilroy;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photosimple{
+    position: absolute;
+    right: 80px;
+    bottom: 162px;
+}
+.ceo{
+    font-family: Gilroy;
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #4f6173;
+margin-top: 13px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.linenavi{
+    border: 1px solid #151d25;
+width: 279px;
+height: 0px;
+margin-bottom: 23px;
+}
+.socies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* danya */
 
@@ -98,5 +148,14 @@ background: linear-gradient(180deg, #151d25 0%, #0f1113 100%);
 @media only screen and (max-width: 1900px) {
 .partnerboxes{
     width: 80%;
+}
+.partners{
+    width:100%
+}
+.team{
+    width: 100%;
+}
+.navi_team{
+    width: 14.5%;
 }
 }
