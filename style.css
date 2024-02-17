@@ -22,14 +22,15 @@ body{
     display: flex;
 }
 .ShText{
+    
     display: inline-flex;
 flex-direction: column;
 align-items: flex-start;
 gap: 20px;
+
 }
 
 .ShMainIn{
-    width: 310px;
     color: #C1ABFF;
 font-family: "Gilroy";
 font-size: 40px;
@@ -62,6 +63,13 @@ background: var(--2G, linear-gradient(91deg, #BDB2FF 21.86%, #CE8FFF 99.05%));
     font-style: normal;
     font-weight: 600;
     line-height: 55px;
+}
+
+#RightSide{
+    text-align: right;
+}
+#RightSideButton{
+    align-self: end;
 }
 /* artem */
 
