@@ -118,3 +118,13 @@ button3.addEventListener('click', minus)
 
 
 
+
+const button4 = document.getElementById('sqrt')
+const firstNum4 = document.getElementById('firstNum4')
+
+function sqrot(){
+    let result = Math.sqrt(firstNum4.value)
+    console.log(result)
+}
+
+button4.addEventListener('click', sqrot)
